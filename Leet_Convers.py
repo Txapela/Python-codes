@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# Created by Txapela
 
 dict = {
     'a' : '4' , 'b' : 'I3' , 'c' : '[' , 'd' : ')' , 'e' : '3' , 'f' : '|=' , 'g' : '&' , 'h' : '#' , 'i' : '1',
