@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# Created by Txapela
 
 '''
  Crea un programa que calcule quien gana más partidas al piedra,
