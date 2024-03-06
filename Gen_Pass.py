@@ -11,7 +11,7 @@ spec = string.punctuation
 password = ""
 combi = ""
 
-lenght = int(input("Introduzca la longitud de la password (8-16): "))
+lenght = int(input("Introduzca la longitud de la password (8-24): "))
 
 resp_minus = (input("Desea que contenga minusculas (S/N): ")).upper()
 if resp_minus == "S": combi += minus
@@ -27,4 +27,4 @@ if resp_spec == "S": combi += spec
 
 for i in range(lenght):
     password += ''.join(secrets.choice(combi))
-print (password)
+print ("Su password generada es la siguiente:", password)
